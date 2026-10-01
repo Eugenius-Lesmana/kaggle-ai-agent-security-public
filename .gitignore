@@ -1,0 +1,10 @@
+# Never publish
+*.ipynb
+*.py
+*.whl
+*.pyc
+__pycache__/
+.pytest_cache/
+.env
+*key*.json
+.scratch/

@@ -1,0 +1,27 @@
+AI Agent Security (Kaggle): what scored, what didn't, and why our private score collapsed
+Licensed under the Apache License, Version 2.0 (see LICENSE), for the text written by us.
+
+THIRD-PARTY WORK AND CREDITS
+----------------------------
+This repository contains no third-party source code. It describes work that built on the following.
+
+  haodou092   A public 82-point Kaggle notebook (https://www.kaggle.com/code/haodou092/notebookcb9f3b04b6).
+              Used as a fixed control and as a design reference.
+  yusuketogashi, pilkwang
+              Public Kaggle kernels our source notes name among the ones we studied. Others by caoyupeng and
+              karnak are mentioned in the same notes.
+  Other authors of public notebooks we read during the competition. We did not keep a complete list, so this
+  credit is incomplete. No endorsement by any of them is implied.
+  My teammate's earlier chassis and submission log, which underlie the early scores in docs/experiment-ledger.md.
+
+  xz (1st place) and the 2nd-place team: their public Kaggle write-ups are summarised in docs/top-teams.md, in
+              our own words. All credit for those methods belongs to their authors. Please read the originals:
+              https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks/writeups
+
+The competition SDK (aicomp_sdk, MIT licence, "Competition Organizers"), the evaluation gateway, the hidden
+private guardrail and all competition data belong to the competition organisers and Kaggle. None of it is
+reproduced here.
+
+HOW THIS WAS BUILT
+------------------
+With heavy use of AI coding assistants, directed and reviewed by the authors.
