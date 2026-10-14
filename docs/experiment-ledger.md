@@ -3,9 +3,10 @@
 Every submission we recorded, in order. Scores are the **aggregate of the two public rows**, copied from the
 leaderboard into our notes. Private-row scores are not shown here.
 
-## Early ladder (my teammate's chassis)
+## Early ladder (prompt engineering)
 
-These came from my teammate's earlier work, before I joined. They show which levers were already dead.
+Our first submissions, implemented by my teammate while I researched the scoring and directed what to try.
+They show which levers were already dead.
 
 | Lever tested | Public score | Read |
 |---|---:|---|

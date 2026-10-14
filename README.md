@@ -5,7 +5,8 @@ A two-person team's work on the Kaggle competition
 This repository is a write-up, not a code drop. It explains the scoring system we reverse-engineered, the
 experiments we ran, the one result that went badly wrong, and what we would do differently.
 
-**Status:** competition finished. Public leaderboard: top 200. Private leaderboard: our score collapsed.
+**Status:** competition finished. Public leaderboard: **rank 275 of 4,187 teams (top 7%)**, best score 92.5.
+Private leaderboard: our score collapsed to 0.
 Everything here is a dated lab record; numbers are from our own notes, and where a score was reported to us
 rather than measured by us, it is marked.
 
@@ -53,6 +54,8 @@ We changed **one lever per submission** and wrote the hypothesis before uploadin
 pre-registration for S19 is in [`docs/experiment-ledger.md`](docs/experiment-ledger.md).
 
 ## Results (public leaderboard)
+
+![Every recorded submission](docs/images/submission-ladder.png)
 
 Scores are aggregates of the two public rows, as recorded in our notes from the leaderboard.
 
@@ -142,9 +145,10 @@ private rows were about 1.2 on an agent we left out of our final picks, so our f
 
 ## How this was built
 
-Heavily with AI coding assistants, directed and reviewed by us. My teammate ran most of the hosted tests that
-showed what worked; I did more of the research and the rebuild after studying their submissions and the
-highest-scoring public ones. Where a design was copied or adapted from public work, that is stated below.
+Heavily with AI coding assistants, directed and reviewed by us. We entered together. I led the research and
+directed the early prompt-engineering submissions, which my teammate implemented; after we moved to
+throughput engineering I rebuilt the candidate-filling design and ran my own submissions in the last two
+weeks, while my teammate tested settings such as the guards and tail sizes. Where a design was copied or adapted from public work, that is stated below.
 
 ## Credits
 
@@ -155,7 +159,7 @@ highest-scoring public ones. Where a design was copied or adapted from public wo
   mention kernels by `caoyupeng` and `karnak`. We read many public notebooks during the competition and **did not
   keep a complete list**, so this credit is incomplete. If your notebook influenced ours, I am sorry we cannot
   name it; please get in touch and I will add it.
-- My teammate's earlier chassis and submission log are the foundation of our early scores.
+- My teammate implemented our early chassis, and our shared submission log is the foundation of the early ladder.
 - The competition SDK and evaluation framework belong to the organisers.
 
 ## What is not here
